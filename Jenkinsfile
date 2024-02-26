@@ -98,6 +98,12 @@
             }
         }
 
+        stage('Trigger CD job ') {
+            steps {
+            echo "triggering CD"
+            build job: 'CD', parameters: [string(name: 'IMAGE_TAG', value: env.IMAGE_TAG)]
+        }
+        }
 
 
     }
