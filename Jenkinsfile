@@ -98,12 +98,12 @@
             }
         }
 
-        // stage('Trigger CD job ') {
-        //     steps {
-        //     echo "triggering CD"
-        //     build job: 'CD', parameters: [string(name: 'IMAGE_TAG', value: env.IMAGE_TAG)]
-        // }
-        // }
+        stage('Trigger CD job ') {
+            steps {
+            echo "triggering CD"
+            build job: 'gitops-complete-pipeline', parameters: [string(name: 'IMAGE_TAG', value: env.IMAGE_TAG)]
+        }
+        }
 
 
     }
