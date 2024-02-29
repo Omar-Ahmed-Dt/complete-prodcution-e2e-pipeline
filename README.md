@@ -24,4 +24,5 @@
     - Install Jenkins-Agent: [Jenkins-Agent](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/scripts/jenkins-agent.sh)
     - Install Sonarqube: [Sonarqube](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/scripts/install-sonarqube.sh)
 
+[ec2](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/ec2_instances.png)
 
