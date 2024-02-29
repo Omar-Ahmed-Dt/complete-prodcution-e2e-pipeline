@@ -26,6 +26,35 @@
 
     ![ec2](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/ec2_instances.png)
 
+    - Create credentials in jenkins: 
+
+    ![Credentials](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/credentials.png)
+
     - Setup Jenkins-Agent: 
 
     ![Jenkins-Agent](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/jenkins_nodes.png)
+
+    -  Setup Sonarqube server: 
+        1. Create Token for Jenkins
+        2. Create Sonarqube Webhook for Quality Gate
+
+    ![SonarQube](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/sonarqube_token.png)
+
+    ![SonarQube2](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/sonarqube.png)
+
+    - Create Dockerhub Token for Jenkins
+
+    - Deploy EKS in AWS
+
+    ![eks](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/eks_cluster.png)
+
+    - Install Argocd in EKS 
+
+    ![argocd](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/argocd.png)
+
+    ![argocd2](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/argocd2.png)
+
+    - Create CD pipeline: 
+
+    ![CD](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/cd_pipeline.png)
+
