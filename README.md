@@ -18,11 +18,14 @@
 - Kubernetes 
 - Argocd
 
-### 
+### Before you run  
 - Preparing the environment:
     - Install Jenkins-Server: [Jenkins](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/scripts/install-jenkins.sh)
     - Install Jenkins-Agent: [Jenkins-Agent](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/scripts/jenkins-agent.sh)
     - Install Sonarqube: [Sonarqube](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/scripts/install-sonarqube.sh)
 
-![ec2](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/ec2_instances.png)
+    ![ec2](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/ec2_instances.png)
 
+    - Setup Jenkins-Agent: 
+
+    ![Jenkins-Agent](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/blob/master/images/jenkins_nodes.png)
