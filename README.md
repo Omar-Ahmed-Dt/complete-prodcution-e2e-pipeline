@@ -18,7 +18,7 @@
 - Docker
 - Sonarqube
 - Trivy
-- terraform | eksctl (any tool to deploy eks cluster)
+- [Terraform](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/tree/master/terraform) | [eksctl](https://github.com/Omar-Ahmed-Dt/complete-prodcution-e2e-pipeline/tree/master/eksctl) (any tool to deploy eks cluster)
 - Kubernetes 
 - Argocd
 
