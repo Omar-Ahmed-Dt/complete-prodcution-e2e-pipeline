@@ -1,4 +1,4 @@
-# Sample application for e2e DevOps Pipeline
+# Complete e2e DevOps Pipeline
 ### This is ci pipeline repository
 
 
